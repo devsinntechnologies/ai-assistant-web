@@ -92,8 +92,12 @@ const SwiperExample: React.FC = () => {
         <div className="mx-auto max-w-[1300px] px-4 sm:px-6 lg:px-3">
           <div className="">
             <Swiper
+            modules={[Navigation, Pagination]}
+            navigation={{
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            }}
               className="testimonialSlider"
-              modules={[Pagination, Navigation]}
               centeredSlides={false}
               initialSlide={6}
               spaceBetween={0}
@@ -102,10 +106,6 @@ const SwiperExample: React.FC = () => {
               pagination={{
                 clickable: true,
                 el: ".testimonials-pagination",
-              }}
-              navigation={{
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
               }}
               breakpoints={{
                 0: {
