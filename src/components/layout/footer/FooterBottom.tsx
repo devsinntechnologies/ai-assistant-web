@@ -48,7 +48,7 @@ const FooterBottom = () => {
     </div>
 
 </div>
-        <div className='w-full h-[15%] bg-primary py-3 md:flex md:flex-row flex flex-col justify-center md:justify-around items-center text-white text-xs'>
+        <div className='w-full h-[15%] bg-primary text-gray-400 py-3 md:flex md:flex-row flex flex-col justify-center md:justify-around items-center  text-xs'>
 <p>© 2024, PAAI. All rights reserved. </p>
 <p> Terms and Conditions | Privacy Policy</p>
         </div>

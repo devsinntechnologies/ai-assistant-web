@@ -137,21 +137,20 @@ const SwiperExample: React.FC = () => {
               ))}
             </Swiper>
           </div>
-          <div className="mt-7 flex flex-col justify-center items-center sm:flex-row sm:items-center sm:justify-between max-sm:gap-8">
-            {/* <div className="testimonials-pagination swiper-pagination"></div>  */}
+          <div className="mt-7 flex flex-col justify-center items-center sm:flex-row sm:items-center  max-sm:gap-8">
             <div className="flex items-center gap-8">
               <div
                 id="slider-button-left"
-                className="swiper-button-prev group flex justify-center items-center border border-white w-12 h-12 transition-all duration-500 rounded-full hover:bg-theme-gradient  "
+                className="swiper-button-prev group flex group-hover:text-white hover:bg-primary  justify-center items-center w-12 h-12 transition-all duration-500 rounded-full hover:bg-theme-gradient  "
                 data-carousel-prev
               >
-                <span className="group-hover:text-white size-8 text-[#1aa7ec]"><ChevronLeft /></span>
+                <span className="group-hover:text-white  size-8 text-primary"><ChevronLeft /></span>
               </div>
               <div
                 id="slider-button-right"
-                className="swiper-button-next group flex justify-center items-center border border-white w-12 h-12 transition-all duration-500 rounded-full hover:bg-theme-gradient hover:text-white"
+                className="swiper-button-prev group flex group-hover:text-white hover:bg-primary  justify-center items-center w-12 h-12 transition-all duration-500 rounded-full hover:bg-theme-gradient "
                 data-carousel-next
-              >  <span className="group-hover:text-white size-8 text-[#1aa7ec] "><ChevronRight /></span>
+              >  <span className="group-hover:text-white size-8 text-primary "><ChevronRight /></span>
               </div>
             </div>
           </div>

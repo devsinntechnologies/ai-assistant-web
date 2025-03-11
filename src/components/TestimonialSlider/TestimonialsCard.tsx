@@ -13,7 +13,6 @@ interface CardProps {
 const testimonialsCard: React.FC<CardProps> = ({ stars, content, avator, name, designation }) => {
   return (
     <div className="slides w-full h-[300px] relative box bg-white border border-black px-7 py-8 rounded-xl">
-      {/* Stars Section */}
       <div className="flex items-center stars pb-6 gap-2 text-amber-500 transition-all duration-200">
         {Array.from({ length: stars }, (_, index) => (
           <svg
@@ -30,13 +29,9 @@ const testimonialsCard: React.FC<CardProps> = ({ stars, content, avator, name, d
           </svg>
         ))}
       </div>
-
-      {/* Content */}
       <p className="xl:text-lg lg:text-base md:text-base tracking-wide  text-[14.5px] text-black content font-extralight leading-7 h-24 transition-all duration-200 pb-4">
         {content}
       </p>
-
-      {/* User Info */}
       <div className="flex items-center gap-5 absolute bottom-6">
         {/* <Image
           width={48}
