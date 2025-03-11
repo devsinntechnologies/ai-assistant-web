@@ -23,7 +23,7 @@ const Footer = () => {
         height={180}
         alt='footer'
         width={100}
-        className='jhoijhoi'
+        className=''
         />
         </div>
         </div>
