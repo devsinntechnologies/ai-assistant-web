@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div className='relative w-full z-1 h-[660px]'>
             <Image
-            src={"/banner.png"}
+            src={"/header/banner.png"}
             height={1400}
             alt='banner'
             width={640}
