@@ -30,7 +30,7 @@ const Login = () => {
                         <label className="block text-sm font-medium text-gray-700">Password</label>
                         <Input type="password" placeholder="Enter your password" className="mt-1 w-full" />
                     </div>
-                    <button className="w-full bg-primary text-white">Login</button>
+                    <Button className="w-full bg-primary text-white">Login</Button>
                     <p className="text-sm text-center text-gray-500">Don't have an account? <a href="#" className="text-primary">Sign up</a></p>
                 </div>
             </DialogContent>
