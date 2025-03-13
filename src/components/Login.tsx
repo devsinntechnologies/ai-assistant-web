@@ -13,7 +13,7 @@ const Login = () => {
     return (
         <Dialog>
             <DialogTrigger>
-                <button className='px-6 py-2 bg-primary text-white rounded-lg'>
+                <button className='px-12 py-2 bg-primary text-white rounded-lg'>
                     Login
                 </button>
             </DialogTrigger>

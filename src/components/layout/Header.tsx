@@ -11,7 +11,6 @@ const Header = () => {
             <ul className='sm:flex hidden gap-5 '>
                 <li>Home</li>
                 <li>About</li>
-                <li>Service</li>
                 <li>Contact</li>
             </ul>
         </div>
