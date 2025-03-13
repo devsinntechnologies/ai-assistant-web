@@ -14,7 +14,7 @@ const Header = () => {
                 <li>Contact</li>
             </ul>
         </div>
-       <Login/>
+       {/* <Login/> */}
         </div>
     </div>
   )
