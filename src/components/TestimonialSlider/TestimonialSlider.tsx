@@ -22,10 +22,10 @@ const slides: CardContent[] = [
   {
     stars: 5,
     content:
-      `Arham is a skilled, innovative Flutter/FlutterFlow expert with strong leadership, dedication, and holistic thinking. Highly recommended and eager to rehire. `,
+      `This AI assistant makes everything so easy! I use it for reminders, travel booking, and shopping.`,
     avator: "/images/home/testimonials/avator1.png",
-    name: "Taimur Khan",
-    designation: "UK",
+    name: "James R.",
+    designation: "Product Designer",
   },
   {
     stars: 5,
@@ -62,10 +62,10 @@ const slides: CardContent[] = [
   {
     stars: 5,
     content:
-    `An exceptional experience. Anham is very skilled and quick to find a solution. He is my first choice when it comes to Flutterflow back-end support.`,
+    `The chatbot is very responsive, and the bill payment feature saves so much time. Love the clean interface`,
     avator: "/images/home/testimonials/avator1.png",
-    name: "vaidassaltenis",
-    designation: "Lithuania",
+    name: "Sarah M.",
+    designation: "UI/UX Designer",
   },
   {
     stars: 5,

@@ -28,7 +28,7 @@ const Features = () => {
                      className={`md:w-[70%] w-full   text-center md:text-left 
                          ${index % 2 === 0 ? "md:flex md:justify-end" : "md:flex md:justify-start"}`}>
                         <div 
-                        className="md:w-[80%] lg:w-[50%] flex flex-col ">
+                        className="md:w-[80%]  flex flex-col ">
                         <h2 className="sm:text-2xl text-lg font-bold text-gray-800">{item.heading}</h2>
                         <p className="text-sm text-gray-600 mt-2">{item.paragraph}</p>
                         </div>
