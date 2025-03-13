@@ -3,8 +3,8 @@ import SwiperExample from "./TestimonialSlider";
 
 const testimonials: React.FC = () => {
     return (<>
-    <div>
-        <div className="text-black flex flex-col gap-5 justify-center items-center lg:py-10 pt-8 pb-2">
+    <div className="bg-[#FBF1FF]">
+        <div className="text-black  flex flex-col gap-5 justify-center items-center lg:py-10 pt-8 pb-2">
           <h2 className=" py-1 px-4 tracking-widest text-primary text-xl font-bold">
          Testimonials
           </h2>

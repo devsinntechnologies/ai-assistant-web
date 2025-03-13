@@ -5,6 +5,7 @@ import FooterTop from '../components/layout/footer/FooterTop'
 import HeroSection from '../components/home/HeroSection'
 import FooterBottom from '../components/layout/footer/FooterBottom'
 import Features from '../components/home/Features'
+import Works from '../components/home/Works'
 import Testimonial from '../components/TestimonialSlider/Testimonial'
 
 
@@ -13,6 +14,7 @@ const page = () => {
     <>
 <Header/>
 <HeroSection/>
+<Works/>
 <Features/>
 <Testimonial/>
 <FooterTop/>
