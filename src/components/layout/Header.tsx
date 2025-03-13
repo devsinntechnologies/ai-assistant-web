@@ -17,12 +17,14 @@ const Header = () => {
   return (
     <div className='w-full md:px-28 bg-black/50 px-10 py-6'>
     <div className='flex justify-between items-center'>
+      <Link href="/">
       <Image
         src="/logo-2.svg"
         alt='Logo'
         height={100}
         width={100}
       />
+      </Link>
       <div>
         <ul className='sm:flex hidden gap-8 text-lg text-white items-center font-medium'>
           <Link href="/"><li>Home</li></Link>

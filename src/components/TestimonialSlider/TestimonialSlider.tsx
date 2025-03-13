@@ -30,31 +30,31 @@ const slides: CardContent[] = [
   {
     stars: 5,
     content:
-      `Thank you for your hard work.”`,
+      `This AI-powered platform has completely transformed my workflow! The accuracy and speed are unmatched. Highly recommended!”`,
     avator: "/images/home/testimonials/avator1.png",
-    name: "TrustLab Co., Ltd.",
+    name: "Jessica M.",
     designation: "South Korea",
   },
   {
     stars: 5,
     content:
-    `Great remote dekstop support. Very professional and knowledgeable. I would highly recommend him.`,
+    `I was skeptical at first, but this website exceeded my expectations. The AI responses are smart, fast, and truly helpful.`,
     avator: "/images/home/testimonials/avator1.png",
-    name: "Elizabeth",
+    name: "David L",
     designation: "United States",
   },
   {
     stars: 5,
     content:
-      `“Amazing experience with this cooperative seller thanks a lot! ”`,
+      `The AI features are great, but I’d love to see more customization options. Overall, a fantastic tool!`,
     avator: "/images/home/testimonials/avator1.png",
-    name: "toyoucreative",
+    name: "Michael S.",
     designation: "Morocco",
   },
   {
     stars: 5,
     content:
-    `Really wonderful experience with that seller I recommended him.`,
+    `I've tried several AI solutions, and this one stands out. It’s intuitive, efficient, and keeps getting better.`,
     avator: "/images/home/testimonials/avator1.png",
     name: "marwanbougsid",
     designation: "Morocco",
@@ -70,15 +70,15 @@ const slides: CardContent[] = [
   {
     stars: 5,
     content:
-    `Excellent developer give me best quality of work.`,
+    `I use this AI daily for content creation and research. It's a lifesaver, though a dark mode option would be nice.`,
     avator: "/images/home/testimonials/avator1.png",
-    name: "amritdhr",
+    name: "Emily T.",
     designation: "India",
   },
   {
     stars: 5,
     content:
-    `Did a great job`,
+    `Best AI Tool I've Used!`,
     avator: "/images/home/testimonials/avator1.png",
     name: "princessele",
     designation: "United States",
