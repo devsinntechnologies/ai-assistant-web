@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className='static w-full z-1 h-[580px]'>
       <Image
-        src={"/header/banner.svg"}
+        src="/header/banner.svg"
         height={1400}
         alt='banner'
         width={640}
