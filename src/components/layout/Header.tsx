@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from './Logo'
+import Login from '../Login'
 
 const Header = () => {
   return (
@@ -14,9 +15,7 @@ const Header = () => {
                 <li>Contact</li>
             </ul>
         </div>
-        <button className='px-6 py-2 bg-primary text-white rounded-lg'>
-            Login
-        </button>
+       <Login/>
         </div>
     </div>
   )

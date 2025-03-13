@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -11,6 +12,7 @@ const Footer = () => {
         <div className='md:pt-20 pt-8 font-bold'>
         <label htmlFor="">Download Now On:</label>
         <div className='flex gap-3 pt-3'>
+        <Link href="https://www.apple.com/app-store/">
         <Image
         src={"/footer/appstore.png"}
         height={180}
@@ -18,6 +20,8 @@ const Footer = () => {
         width={100}
         className=''
         />
+        </Link>
+        <Link href="https://play.google.com/store/apps?hl=en&pli=1">
         <Image
         src={"/footer/playstore.png"}
         height={180}
@@ -25,12 +29,13 @@ const Footer = () => {
         width={100}
         className=''
         />
+        </Link>
         </div>
         </div>
       </div>
       <div className='md:w-[50%] w-full  md:px-28 flex flex-col items-center justify-end '>
         <Image 
-        src={"/footer/footer-frame.png"}
+        src={"/footer/footer-frame.svg"}
         height={180}
         alt='footer'
         width={100}

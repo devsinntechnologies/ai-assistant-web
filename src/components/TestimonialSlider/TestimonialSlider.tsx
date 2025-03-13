@@ -91,68 +91,72 @@ const SwiperExample: React.FC = () => {
       <div className="py-10">
         <div className="mx-auto max-w-[1300px] px-4 sm:px-6 lg:px-3">
           <div className="">
-            <Swiper
-            modules={[Navigation, Pagination]}
-            navigation={{
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-            }}
-              className="testimonialSlider"
-              centeredSlides={false}
-              initialSlide={6}
-              spaceBetween={0}
-              slidesPerView={2.5}
-              loop={true}
-              pagination={{
-                clickable: true,
-                el: ".testimonials-pagination",
-              }}
-              breakpoints={{
-                0: {
-                  slidesPerView: "auto",
-                  spaceBetween: 40,
-                  centeredSlides: false,
-                },
-                768: {
-                  slidesPerView: 1.7,
-                  spaceBetween: 10,
-                  centeredSlides: false,
-                },
-                1024: {
-                  slidesPerView: 2.5,
-                  spaceBetween: 0,
-                },
-              }}
-            >
-              {slides.map((slide, index) => (
-                <SwiperSlide key={index}>
-                  <TestimonialsCard
-                    stars={slide.stars}
-                    content={slide.content}
-                    avator={slide.avator}
-                    name={slide.name}
-                    designation={slide.designation}
-                  />
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
-          <div className="mt-7 flex flex-col justify-center items-center sm:flex-row sm:items-center  max-sm:gap-8">
-            <div className="flex items-center gap-8">
-              <div
-                id="slider-button-left"
-                className="swiper-button-prev group flex group-hover:text-white hover:bg-primary  justify-center items-center w-12 h-12 transition-all duration-500 rounded-full hover:bg-theme-gradient  "
-                data-carousel-prev
-              >
-                <span className="group-hover:text-white  size-8 text-primary"><ChevronLeft /></span>
-              </div>
-              <div
-                id="slider-button-right"
-                className="swiper-button-prev group flex group-hover:text-white hover:bg-primary  justify-center items-center w-12 h-12 transition-all duration-500 rounded-full hover:bg-theme-gradient "
-                data-carousel-next
-              >  <span className="group-hover:text-white size-8 text-primary "><ChevronRight /></span>
-              </div>
-            </div>
+          <Swiper
+  modules={[Navigation, Pagination]}
+  navigation={{
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  }}
+  className="testimonialSlider"
+  centeredSlides={false}
+  initialSlide={6}
+  spaceBetween={0}
+  slidesPerView={2.5}
+  loop={true}
+  pagination={{
+    clickable: true,
+    el: ".testimonials-pagination",
+  }}
+  breakpoints={{
+    0: {
+      slidesPerView: "auto",
+      spaceBetween: 40,
+      centeredSlides: false,
+    },
+    768: {
+      slidesPerView: 1.7,
+      spaceBetween: 10,
+      centeredSlides: false,
+    },
+    1024: {
+      slidesPerView: 2.5,
+      spaceBetween: 0,
+    },
+  }}
+>
+  {slides.map((slide, index) => (
+    <SwiperSlide key={index}>
+      <TestimonialsCard
+        stars={slide.stars}
+        content={slide.content}
+        avator={slide.avator}
+        name={slide.name}
+        designation={slide.designation}
+      />
+    </SwiperSlide>
+  ))}
+</Swiper>
+
+{/* Navigation Buttons */}
+<div className="mt-7 flex flex-col justify-center items-center sm:flex-row sm:items-center max-sm:gap-8">
+  <div className="flex items-center gap-8">
+    <div
+      className="swiper-button-prev group flex justify-center items-center w-12 h-12 transition-all duration-500 rounded-full hover:bg-primary"
+    >
+      <span className="group-hover:text-white size-8 text-primary">
+        <ChevronLeft />
+      </span>
+    </div>
+    <div
+      className="swiper-button-next group flex justify-center items-center w-12 h-12 transition-all duration-500 rounded-full hover:bg-primary"
+    >
+      <span className="group-hover:text-white size-8 text-primary">
+        <ChevronRight />
+      </span>
+    </div>
+  </div>
+</div>
+
           </div>
         </div>
       </div>

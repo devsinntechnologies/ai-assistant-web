@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 const HeroSection = () => {
   return (
     <div className='relative w-full z-1 h-[660px]'>
@@ -15,6 +16,7 @@ const HeroSection = () => {
             <h1 className='sm:text-5xl text-2xl font-extrabold'>Your Smart AI Assistant for Travel, Shopping, and More</h1>
             <p className='text-sm lg:px-20 sm:px-10'>Experience the power of AI to simplify your daily tasks—whether it's booking travel, finding the best shopping deals, or managing your logistics.</p>
             <div className='gap-5 flex w-full items-center mt-5 justify-center'>
+               <Link href="https://play.google.com/store/apps?hl=en&pli=1">
                <Image
                src={"/header/google-play.png"}
                alt='google play'
@@ -22,14 +24,16 @@ const HeroSection = () => {
                width={100}
                className='lg:h-[86px] sm:h-[46px] sm:w-[140px] h-[36px] w-[110px] md:h-[66px] md:w-[200px] lg:w-[260px]'
                />
-                <Image
+              </Link>
+              <Link href="https://www.apple.com/app-store/">
+              <Image
                src={"/header/app-store.png"}
-               alt='google play'
+               alt='App Store'
                height={100}
                width={100}
                className='lg:h-[86px] sm:h-[46px] sm:w-[140px] h-[36px] w-[110px] md:h-[66px] md:w-[200px] lg:w-[260px]'
-
                />
+              </Link>
             </div>
         </div>
     </div>
