@@ -3,6 +3,7 @@ import Logo from './Logo'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Menu } from 'lucide-react'
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -11,6 +12,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import Login from '../Login'
 
 
 const Header = () => {
@@ -43,6 +45,7 @@ const Header = () => {
         </div>
       </div>
       {/* <Login/> */}
+      <div className='lg:flex hidden'></div>
     </div>
   </div>
   )

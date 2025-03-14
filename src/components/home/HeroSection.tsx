@@ -18,7 +18,7 @@ const HeroSection = () => {
         <div className='gap-5 flex w-full items-center mt-5 justify-center'>
           <Link href="https://play.google.com/store/apps?hl=en&pli=1">
             <Image
-              src={"/header/google-play.png"}
+              src={"/header/google-store.svg"}
               alt='google play'
               height={100}
               width={100}
@@ -27,7 +27,7 @@ const HeroSection = () => {
           </Link>
           <Link href="https://www.apple.com/app-store/">
             <Image
-              src={"/header/app-store.png"}
+              src={"/header/app-store.svg"}
               alt='App Store'
               height={100}
               width={100}
