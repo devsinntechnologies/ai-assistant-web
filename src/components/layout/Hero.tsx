@@ -15,7 +15,7 @@ const Hero: React.FC<ReusableComponentProps> = ({ heading1 }) => {
   }, []);
 
   return (
-    <div className="static w-full h-[300px] flex items-center justify-center overflow-hidden">
+    <div className="relative w-full h-[300px] flex items-center justify-center overflow-hidden">
       {isClient && (
         <Image
           src="/header/banner.svg"

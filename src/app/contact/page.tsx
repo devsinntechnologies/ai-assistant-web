@@ -9,7 +9,7 @@ const page = () => {
         <div>
             <Hero heading1="Contact" />
             <div className="lg:px-60 md:px-40 sm:px-20 px-10 py-10 flex text-lg flex-col">
-                <h2 className="text-3xl font-bold mb-4 text-left">We’d love to hear from you!  Whether you have questions, feedback, or need assistance, our team is here to help.</h2>
+                <h2 className="text-3xl font-medium mb-4 text-left">We’d love to hear from you!  Whether you have questions, feedback, or need assistance, our team is here to help.</h2>
                 <div className="space-y-4">
                     <div className="flex items-center space-x-3">
                         <span className="text-lg font-bold">Email: <a href="mailto:support@paai.com" className=" font-light hover:underline">support@paai.com</a></span>

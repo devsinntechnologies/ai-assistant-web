@@ -4,13 +4,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 const HeroSection = () => {
   return (
-    <div className='static w-full z-1 h-[580px]'>
+    <div className='relative w-full z-1 h-[100vh]'>
       <Image
         src="/header/banner.svg"
         height={1400}
         alt='banner'
         width={640}
-        className='w-full h-[660px]  absolute top-0 left-0 object-cover z-[-10] rotate-0'
+        className='w-full h-[100vh] absolute items-center top-0 left-0 object-cover z-[-10] rotate-0'
       />
       <div className='relative w-full items-center lg:px-[360px] md:px-40 sm:px-20 px-5 text-center  flex flex-col justify-center text-white space-y-5 h-full '>
         <h1 className='sm:text-5xl text-2xl font-extrabold'>Your Smart AI Assistant for Travel and Beyond</h1>

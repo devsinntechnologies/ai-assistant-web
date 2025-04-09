@@ -4,7 +4,7 @@ import { featuresData } from "@/src/data/featuresData";
 
 const Features = () => {
     return (
-        <section className="flex flex-col w-full h-auto items-center justify-center gap-12 sm:px-16 px-8 md:px-24 lg:px-60 py-10">
+        <section className="flex relative flex-col w-full h-auto items-center justify-center gap-12 sm:px-16 px-8 md:px-24 lg:px-60 py-10">
             <h1 className="w-full text-center md:text-4xl sm:text-3xl text-xl font-bold sm:font-extrabold">
                 Explore the Smart Features <br /> of Our AI Assistant
             </h1>
