@@ -40,7 +40,7 @@ const HowItWorks = () => {
           How Our AI Assistant Works
         </h2>
         <p className="mt-2 text-gray-600">
-          "Just ask, and our AI chatbot takes care of the rest. From booking trips and setting reminders to paying bills and finding services, everything is quick, smart, and effortless—saving you time and effort."
+        Just ask, and our AI chatbot takes care of the rest. From booking trips and setting reminders to paying bills and finding services, everything is quick, smart, and effortless—saving you time, effort, and money.
         </p>
       </div>
       <div className="relative max-w-2xl mx-auto mt-12">

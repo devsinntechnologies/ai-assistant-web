@@ -12,7 +12,7 @@ import {
 
 const Header = () => {
   return (
-    <div className='w-full fixed md:px-28 bg-black/70 px-10 py-6 z-50'>
+    <div className='w-full fixed md:px-28 bg-black/70 px-10 py-5 z-50'>
       <div className='flex justify-between items-center'>
         <Link href="/" passHref legacyBehavior>
           <a className='inline-block'>
