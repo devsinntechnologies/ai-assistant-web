@@ -17,7 +17,7 @@ export const featuresData = [
     image: "/features/Frame-3.svg",
   },
   {
-    heading: "Seamless delivery and shipment tracking",
+    heading: "Real Street Views, Smarter Navigation – No More Wrong Turns",
     paragraph:"Plan your trips with ease — let the AI suggest destinations, compare flights, and find the best hotel deals tailored to your preferences.",
     image: "/features/Frame-4.svg",
   },

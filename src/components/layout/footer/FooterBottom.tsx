@@ -48,7 +48,7 @@ const FooterBottom = () => {
 
             </div>
             <div className='w-full h-[15%] bg-primary text-gray-400 py-3 md:flex md:flex-row flex flex-col justify-center md:justify-around items-center  text-xs'>
-                <p>© 2024, PAAI. All rights reserved. </p>
+                <p>© 2025, PAAI. All rights reserved. </p>
                 <div className='flex gap-2'>
                     <Link href="/termsAndConditions"><p> Terms and Conditions |</p></Link>
                     <Link href="/privacyPolicy"><p>Privacy Policy</p></Link>
