@@ -28,7 +28,7 @@ export const featuresData = [
     image: "/features/Frame-5.svg",
   },
   {
-    heading: "Find the best deals in just seconds",
+    heading: "Multitask Smarter: Convert Documents to Audio On-the-Go",
     paragraph:"Convert text to voice and listen to important emails or documents while multitasking. Perfect for when you’re on the move!",
     image: "/features/Frame-6.svg",
   }
