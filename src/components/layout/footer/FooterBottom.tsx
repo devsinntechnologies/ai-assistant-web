@@ -18,24 +18,7 @@ const FooterBottom = () => {
 
                     </ul>
                 </div>
-                {/* <div className='flex flex-col space-y-3 text-sm h-full py-5  w-full items-center  text-left md:text-center'>
-        <label htmlFor="" className='font-bold'>About us</label>
-        <ul className='space-y-3 text-gray-500'>
-            <li>Our Story</li>
-            <li>Team</li>
-            <li>Careers</li>
-            <li>Contact Us</li>
-        </ul>
-    </div> */}
-                {/* <div className='flex flex-col h-full text-sm space-y-3 w-full py-5 items-center  text-left md:text-center'>
-        <label htmlFor="" className='font-bold'>Resources</label>
-        <ul className='space-y-3 text-gray-500'>
-            <li>Help Center</li>
-            <li>Blog</li>
-            <li>FAQs</li>
-            <li>Case Studies</li>
-        </ul>
-    </div> */}
+             
                 <div className='flex flex-col h-full text-sm space-y-3 w-full py-5 sm:items-center  text-left md:text-center'>
                     <label htmlFor="" className='font-bold'>Social Media</label>
                     <ul className='space-y-3 font-bold '>

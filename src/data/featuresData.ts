@@ -1,10 +1,10 @@
 export const featuresData = [
-  {
-    heading: "Find locations instantly with AI-powered maps",
-    paragraph:
-      "Our AI-powered maps make navigation effortless, helping you locate nearby attractions, services, and transportation. Get step-by-step directions or discover hidden gems in any city.",
-    image: "/features/Frame-1.svg",
-  },
+  // {
+  //   heading: "",
+  //   paragraph:
+  //     "Our AI-powered maps make navigation effortless, helping you locate nearby attractions, services, and transportation. Get step-by-step directions or discover hidden gems in any city.",
+  //   image: "/features/Frame-1.svg",
+  // },
   {
     heading: "Fast & Secure Bill Payments",
     paragraph:"Handle your bills in seconds with secure payment options. The AI remembers recurring bills, sends reminders, and helps you avoid late fees — so you can travel stress-free.",
@@ -18,13 +18,13 @@ export const featuresData = [
   },
   {
     heading: "Real Street Views, Smarter Navigation – No More Wrong Turns",
-    paragraph:"Plan your trips with ease — let the AI suggest destinations, compare flights, and find the best hotel deals tailored to your preferences.",
+    paragraph: "Our AI-powered maps make navigation effortless, helping you locate nearby attractions, services, and transportation. Get step-by-step directions or discover hidden gems in any city.",
     image: "/features/Frame-4.svg",
   },
   {
     heading: "Quick and hassle-free travel booking with AI assistance",
     paragraph:
-      "PTrack your deliveries and shipments in real-time. Whether you’re sending documents or waiting for an important package, the AI keeps you updated every step of the way.",
+      "Track your deliveries and shipments in real-time. Whether you’re sending documents or waiting for an important package, the AI keeps you updated every step of the way.",
     image: "/features/Frame-5.svg",
   },
   {
